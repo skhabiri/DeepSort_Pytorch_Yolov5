@@ -1,3 +1,9 @@
+"""
+example:
+1) activate conda env
+2) python train.py --data-dir ./data --no-cuda --lr=0.1 --interval=20
+"""
+
 import argparse
 import os
 import time
