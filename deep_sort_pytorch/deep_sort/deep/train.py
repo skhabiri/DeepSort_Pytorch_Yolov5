@@ -10,7 +10,7 @@ import torchvision
 
 from model import Net
 
-parser = argparse.ArgumentParser(description="Train on market1501")
+parser = argparse.ArgumentParser(description="Train on custom data")
 parser.add_argument("--data-dir", default='data', type=str)
 parser.add_argument("--no-cuda", action="store_true")
 parser.add_argument("--gpu-id", default=0, type=int)
